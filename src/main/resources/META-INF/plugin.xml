@@ -4,7 +4,7 @@
   <depends>com.intellij.modules.platform</depends>
   <description>
     <![CDATA[
-      INtegrates <b>Nordix</b> service to YouTrack time tracking
+      Integrates <b>Nordix</b> service to YouTrack time tracking
     ]]>
   </description>
   <change-notes>
@@ -19,6 +19,12 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <postStartupActivity implementation = "dev.nordix.yt_integration.activity.NordixProjectActivity" />
+
+    <notificationGroup id="Nordix Notifications"
+                       displayType="BALLOON"
+                       isLogByDefault="false"
+                       toolWindowId="NordixWindow"/>
+
   </extensions>
 
 </idea-plugin>

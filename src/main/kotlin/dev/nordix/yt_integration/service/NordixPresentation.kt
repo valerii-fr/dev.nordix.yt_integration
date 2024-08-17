@@ -1,4 +1,4 @@
-package dev.nordix.yt_integration.services
+package dev.nordix.yt_integration.service
 
 import dev.nordix.yt_integration.helpers.JsonHelper
 import kotlinx.serialization.SerialName

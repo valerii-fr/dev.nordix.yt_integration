@@ -1,4 +1,4 @@
-package dev.nordix.yt_integration.services
+package dev.nordix.yt_integration.service
 
 enum class ServiceEventSource {
     SERVICE_EVENT_ADDED,
